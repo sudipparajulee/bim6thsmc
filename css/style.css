@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+}
+
+.login-form, .register-form{
+    width: 40%;
+    margin: auto;
+    background-color: rgb(157, 186, 212);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login-form input, .register-form input{
+    display: block;
+    width: 95%;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-form input[type="submit"], .register-form input[type="submit"]{
+    width: 50%;
+    background-color: blue;
+    color: white;
+}
